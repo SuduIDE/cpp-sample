@@ -30,6 +30,7 @@ int main() {
 
     foo2();
     foo3();
+    foo3();
 
     std::cout << getVersion();
 
