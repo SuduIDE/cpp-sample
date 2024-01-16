@@ -9,6 +9,10 @@ bool foo2() {
     return bar1();
 }
 
+int foo3() {
+    return bar1();
+}
+
 // comment with chinese 语言支持
 extern const char* getVersion();
 
@@ -25,6 +29,7 @@ int main() {
     delete b;
 
     foo2();
+    foo3();
 
     std::cout << getVersion();
 
