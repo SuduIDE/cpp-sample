@@ -26,6 +26,7 @@ int main() {
 
     A* b = new B();
     std::cout << b->foo();
+    //commment
     delete b;
 
     foo2();
